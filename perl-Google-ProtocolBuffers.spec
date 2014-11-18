@@ -54,7 +54,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%{_bindir}/*
+%attr(755,root,root) %{_bindir}/*
 %dir %{perl_vendorlib}/%{pdir}
 %dir %{perl_vendorlib}/%{pdir}/%{pnam}
 %{perl_vendorlib}/%{pdir}/*.pm
