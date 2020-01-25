@@ -3,7 +3,6 @@
 
 %define		pdir	Google
 %define		pnam	ProtocolBuffers
-%include	/usr/lib/rpm/macros.perl
 Summary:	Google::ProtocolBuffers - simple interface to Google Protocol Buffers
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.11
